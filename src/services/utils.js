@@ -31,6 +31,6 @@ export const check_user_access = (navigate) =>{
     return accessToken
   }
 
-  navigate('/register')
+  navigate('/')
 } 
 

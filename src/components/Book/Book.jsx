@@ -10,7 +10,7 @@ function Book({ book }) {
 
     const accessToken = localStorage.getItem("myfAccessToken")
     if (!accessToken){
-        navigate('/register')
+        navigate('/')
     }
     
     const purchaseBook = async () =>{
