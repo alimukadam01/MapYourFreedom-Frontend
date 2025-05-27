@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <div className='content'>
           <Routes>
-            <Route path='register/' element={ <RegistrationPage /> } />
+            <Route path='/' element={ <RegistrationPage /> } />
             <Route path='user-profile/' element={ <UserProfile /> } />
             <Route path='view_book/' element={ <ViewBook /> } />
           </Routes>

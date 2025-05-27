@@ -64,7 +64,7 @@
     color: white;
     text-align: center;
     border-radius: 4px;
-    padding: 4px;
+    padding: 4px 8px;
     box-sizing: border-box;
     width: 75%;
     cursor: pointer;
