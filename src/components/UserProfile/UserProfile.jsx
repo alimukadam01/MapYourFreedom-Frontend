@@ -15,7 +15,7 @@ function UserProfile() {
 
     const accessToken = localStorage.getItem("myfAccessToken")
     if (!accessToken){
-        navigate('/register')
+        navigate('/')
     }
 
     const [user, SetUser] = useState(null)
