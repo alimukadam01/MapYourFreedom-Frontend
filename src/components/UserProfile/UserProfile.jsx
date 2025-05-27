@@ -28,11 +28,11 @@ function UserProfile() {
                     SetUser(user)
                     return
                 }
-                navigate('/register')
+                navigate('/')
 
             }catch(error){
                 console.log(error)
-                navigate('/register')
+                navigate('/')
             }
         }
 
@@ -76,7 +76,7 @@ function UserProfile() {
 
     const logoutUser = ()=>{
         localStorage.removeItem("myfAccessToken")
-        navigate("/register")
+        navigate("/")
     }
 
 
