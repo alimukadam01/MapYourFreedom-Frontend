@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const BASE_URL = "http://127.0.0.1:80/"
+export const BASE_URL = "http://backend.mapyourfreedom.com/"
 
 const apiClient = axios.create({
     baseURL: BASE_URL,

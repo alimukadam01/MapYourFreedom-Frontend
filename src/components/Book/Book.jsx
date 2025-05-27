@@ -35,7 +35,7 @@ function Book({ book }) {
     const handleDownload = async () => {
         try {
             // Fetch the PDF from the backend using view_book
-            const pdf = await fetchBook(accessToken); // Assumes view_book returns a Blob
+            const pdf = await fetchBook(accessToken, book.id); // Assumes view_book returns a Blob
             console.log(pdf)
         
             // Create a temporary URL for the PDF Blob

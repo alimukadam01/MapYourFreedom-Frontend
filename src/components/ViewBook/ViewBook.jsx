@@ -68,6 +68,10 @@ function ViewBook() {
         return () => window.removeEventListener('keydown', handleKeyDown);
     }, [])
 
+    {
+        console.log(book_id)
+    }
+
   return (
     <div className="MYF-container" onContextMenu={(e)=> e.preventDefault()}>
         {file? (
