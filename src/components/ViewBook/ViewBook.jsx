@@ -76,6 +76,7 @@ function ViewBook() {
     <div className="MYF-container" onContextMenu={(e)=> e.preventDefault()}>
         {file? (
             <>
+                
                 <div className="book-title-container">
                     <p>{ book_name  }</p>
                     <button onClick={ handleDownload }><i class="fa-solid fa-download" /></button>
